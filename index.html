@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="header">
+      <ul class="header">
+        <li id="highscore-hover">Highscores</li><li id="login-hover">Login</li>
+      </ul>
+    </div>
+    <!-- OVERLAYS -->
+    <div class="hidden alert">No Alerts!</div>
+    <div class="hidden session">Currently Not Logged In</div>
+    <div class="hidden highscore overlay">Highscores</div>
+    <div class="hidden user-score overlay"></div>
+    <div class="hidden user overlay"></div>
+    
+    <!-- LOGIN OVERLAY FORM -->
+    <div class="hidden login overlay" >
+      <form class="user">
+          <label>Login:</label>
+          <input class="user-name" type="text"/>
+          <input type="submit"/>
+      </form>
+    </div>
+    
+    <br>
+    <!-- GAME CANVAS -->
+    <canvas id="gameBackground" width="480" height="320"></canvas>
+
+    <!-- JS FILE -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

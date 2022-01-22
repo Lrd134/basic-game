@@ -1,0 +1,23 @@
+{
+  "name": "chesbro-javascript",
+  "version": "0.5.2",
+  "description": "my first flatiron javascript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lrd134/chesbro-javascript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "type": "module",
+  "author": "Lawrence D.  Chesbro, Jr.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lrd134/chesbro-javascript/issues"
+  },
+  "homepage": "https://github.com/Lrd134/chesbro-javascript#readme"
+}
